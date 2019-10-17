@@ -31,7 +31,6 @@ export default {
   },
   methods: {
     getSource (source, type) {
-    console.log(source)
       const regex = new RegExp(`<${type}[^>]*>`)
       let openingTag = source.match(regex)
       if (!openingTag) return ''
