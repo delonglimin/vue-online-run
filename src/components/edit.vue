@@ -5,7 +5,8 @@
       <button class="edit" @click="edit">重新编辑</button>
     </div>
     <div class="style-box">
-      <textarea :disabled="disabled" name="code" placeholder="请在此编写.vue文件" @input="handleChange"></textarea>
+      <textarea  name="code" placeholder="请在此编写.vue文件" @input="handleChange">
+      </textarea>
     </div>
   </div>
 </template>

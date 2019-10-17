@@ -1,7 +1,7 @@
 <template>
   <div class="test-box">
     <p>这是一个Vue running 测试</p>
-    <button @click="clickCount">我被点击了{{count || ''}}</button>
+    <el-button type="primary" @click="clickCount">我被点击了{{count || ''}}</el-button>
   </div>
 </template>
 <script>
